@@ -6,17 +6,17 @@
         format=\centering\sffamily\heiti\zihao{3},
         nameformat={},
         titleformat={},
-        name={第, 章},
-        aftername=\quad,
-        number=\arabic{chapter},
-        beforeskip=12pt,
-        afterskip=6pt
+        name={,、},
+        number=\chinese{chapter},
+        aftername=\hspace{0pt},
+        beforeskip=0pt,
+        afterskip=0pt,
     },
     section =
     {
         format=\raggedright\sffamily\heiti\zihao{4},
         name={},
-        number=\arabic{chapter}.\arabic{section},
+        number=\arabic{section}.,
         beforeskip=13pt,
         afterskip=13pt
     },
@@ -24,7 +24,7 @@
     {
         format=\raggedright\sffamily\heiti\fontsize{13}{13},
         name={},
-        number=\arabic{chapter}.\arabic{section}.\arabic{subsection},
+        number=\arabic{section}.\arabic{subsection},
         beforeskip=13pt,
         afterskip=13pt
     },
@@ -34,7 +34,7 @@
         name={},
         aftername=~,
         numbering=true,
-        number=\arabic{chapter}.\arabic{section}.\arabic{subsection}.\arabic{subsubsection},
+        number=\arabic{section}.\arabic{subsection}.\arabic{subsubsection},
         beforeskip=0pt,
         afterskip=0pt
     }
